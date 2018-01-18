@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: NexaLight;
+    src: url("../font/NexaLight.otf");
+    background-image: url(../img/vrijdagbg.png);
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat:   no-repeat;
+
+}
+
+#title {
+    text-decoration: none;
+    display: inline;
+    font-family: NexaBold;
+    src: url("../font/NexaBold.otf"); 
+    color: #00d66c;
+    line-height: 59px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#comments {
+    float: right;
+    margin-right: 10%;
+}
+
+#bluebtn {
+    background-color: #2800a0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#bluebtn:focus {
+    background-color: #00d66c;
+}
+
+#footer {
+    background-color: #f1e5da;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+
+
+#vrijdagtitel {
+    padding-top: 50px;
+    height: 40%;
+    width: 75%;
+    max-width: 500px;
+}
+
+
+#leesbox {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    color: white;
+}
+
+
+#filtermenutitel {
+    margin-left: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#dropbtn1 {
+     background-image: url(../img/account.png);
+     width: 40px;
+     height: 40px;
+     background-size: 40px 40px;
+     z-index: 1000;
+     color: #00d66c;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+     margin-right: 75px;
+}
+
+#bluebtn {
+    background-color: #2800a0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#bluebtn:focus {
+    background-color: #00d66c;
+}
+
+#dropdown {
+    z-index: 1000;
+    position: relative;
+    display: inline-block;
+     float: right;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    max-height: 120px
+    box-shadow: 3px 5px 10px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdown-content a:hover {background-color: #f1f1f1}
+
+#dropdown:hover #dropdown-content {
+    display: block;
+}
+
+#dropdown:hover #dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+#topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;  
+    top: 0;
+    height: 50px;
+    width: 100%;
+    box-shadow:         3px 5px 10px black;
+    z-index: 99;
+    line-height: 50px
+}
+
+
+ul {
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: #00d66c;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    color: #2800a0;
+}
+
+@media screen and (max-width: 426px){
+    body {
+    background-repeat: no-repeat;
+    background-size: auto;
+    }
+    ul#topmenu li {
+        float: none;
+    }
+    #wit {
+        display: block;
+        margin: 5px 5px;
+    }
+    
+    #belowfold {
+        flex-direction: column;
+    }
+    
+    
+}
+
+
+
+h3 {
+    font-family: NexaBold;
+    src: url("../font/NexaBold.otf"); 
+    margin: 12px;
+    
+}
+
+
+
+h2 {
+      font-family: NexaBold;
+    src: url("../font/NexaBold.otf");
+    margin-left: 50px;
+}
